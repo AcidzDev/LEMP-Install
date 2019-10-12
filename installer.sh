@@ -17,7 +17,7 @@ apt install nginx
 wget https://pastebin.com/raw/ih3f011P
 mv ih3f011P default
 mv default /etc/nginx/sites-available/default
-service restart nginx
+service nginx restart
 
 # Install pHp 7.2
 add-apt-repository -y ppa:ondrej/php -y
